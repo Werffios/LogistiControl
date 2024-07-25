@@ -17,7 +17,7 @@
 #RUN docker-php-ext-configure intl && docker-php-ext-install mysqli pdo pdo_mysql intl
 
 # Replace before content with this
-FROM elrincondeisma/octane:latest
+FROM elrincondeisma/php-for-laravel:8.3.7
 
 
 # Install Composer
