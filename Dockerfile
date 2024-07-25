@@ -28,6 +28,7 @@ COPY . .
 
 RUN rm -f /app/vendor
 RUN rm -f /app/composer.lock
+
 RUN composer install
 RUN composer require laravel/octane spiral/roadrunner
 COPY .env.example .env
